@@ -1,78 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vallabh Khandagale - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Vallabh Premendra Khandagale - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Animate.css for smooth animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="header-bg"></div>
-    <img src="profile.jpg" alt="Profile Image" class="profile-img" />
-    <h1>Vallabh Khandagale</h1>
-    <p>3D Printing & CAD Designer | BE Mechanical 2027</p>
-    <p>Pimpri Chinchwad College of Engineering and Research</p>
-    <a href="https://www.linkedin.com/in/vallabh-khandagale-154023208" target="_blank">
-      <svg height="24" width="24" viewBox="0 0 24 24" class="icon-linkedin"><path d="M19 0h-14c-2.76 0-5 2.24-5 ..."/></svg>
-      LinkedIn
-    </a>
+  <header class="animate__animated animate__fadeInDown">
+    <!-- Update the src ID with your Drive profile image ID -->
+    <img class="profile-img animate__animated animate__zoomIn" src="https://drive.google.com/uc?export=view&id=PROFILE_IMAGE_ID" alt="Profile Image"/>
+    <h1>Vallabh Premendra Khandagale</h1>
+    <p>Web Developer | Data Enthusiast | Lifelong Learner</p>
+    <div class="contacts animate__animated animate__fadeInUp">
+      <a href="mailto:vallabhkhandagale@email.com">Email</a>
+      <a href="https://linkedin.com/in/vallabh-khandagale-154023208" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Vallabh200" target="_blank">GitHub</a>
+    </div>
   </header>
-
-  <section id="about">
-    <h2><span class="icon-about"></span> About Me</h2>
-    <p>
-      As a Mechanical Engineer at Team Sonic Diggers, I am part of the Marketing team and the Conveyor department.
-      I am currently pursuing my Bachelor of Engineering in Mechanical Engineering from Pimpri Chinchwad College Of Engineering and Research, expected to graduate in October 2027.
-      I have also completed an International Level Student Workshop and an Introduction to Programming Using Python certification.
-      My skills include 3D Printing, Microsoft Copilot, and Artificial Intelligence (AI).
-      I am passionate about applying my knowledge and skills to innovative solutions in the field of mechanical engineering.
-    </p>
-  </section>
-
-  <section id="experience">
-    <h2><span class="icon-experience"></span> Experience</h2>
-    <ul>
-      <li><strong>Team Sonic Diggers</strong> – Marketing team & Conveyor department (TIFAN Project)</li>
-      <li><strong>Altair, Pune</strong> – Conceptual CAE Design & Simulation Virtual Internship (Outstanding Grade)</li>
-    </ul>
-  </section>
-
-  <section id="education">
-    <h2><span class="icon-education"></span> Education</h2>
-    <ul>
-      <li><strong>BE Mechanical Engineering</strong> – PCCOER, CGPA: 8.91</li>
-      <li><strong>HSC Science</strong> – Haribhai Devkaran High School</li>
-      <li><strong>SSC</strong> – Haribhai Devkaran High School, Grade: 92.65%</li>
-    </ul>
-  </section>
-
-  <section id="certifications">
-    <h2><span class="icon-cert"></span> Certifications</h2>
-    <div class="card-list">
-      <div class="card">AI Dashboards using Microsoft Power BI – Skill Nation</div>
-      <div class="card">Application Development with AI & Essential Skills – Brainovision</div>
-      <div class="card">GenAI Powered Data Analytics Job Simulation – Tata Group</div>
-      <div class="card">Altair Simulation Challenge: Innovate with Inspire!</div>
-      <div class="card">Python Programming Bootcamp – Udemy</div>
-      <div class="card">Inspire Structures Professional Certification – Altair</div>
-      <div class="card">Fundamental AI Concepts – Microsoft AI</div>
-      <div class="card">Introduction to Programming Using Python – NIELIT</div>
-      <div class="card">International Level Student Workshop – Brainovision</div>
-      <div class="card">ANSYS Workbench Hands-on Workshop</div>
+  <section class="main-section animate__animated animate__fadeInUp">
+    <div class="featured">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Vallabh, a passionate developer and data science enthusiast. I love building efficient, scalable web apps and exploring new technologies. Always learning, always improving!
+      </p>
+      <h3>Key Highlights</h3>
+      <ul>
+        <li>Strong skills in Web Development (HTML, CSS, JavaScript, Python)</li>
+        <li>Proficient with Jupyter Notebooks and Data Science tools</li>
+        <li>Experience in project management and agile workflows</li>
+        <li>Quick learner and problem solver</li>
+      </ul>
     </div>
-  </section>
-
-  <section id="projects">
-    <h2><span class="icon-project"></span> Projects</h2>
-    <div class="project-list">
-      <div class="project-card">
-        <h3>Differential Spur Gear Model (3D Printing)</h3>
-        <img src="spur-gear.png" alt="Spur Gear Model" class="project-img" />
-        <p>Designed and printed a differential spur gear system for efficient torque distribution in vehicles.</p>
+    <div style="text-align:center; margin:2.2rem 0;">
+      <!-- Replace the Drive ID below with your resume file ID -->
+      <a class="resume-btn animate__animated animate__pulse animate__infinite" href="https://drive.google.com/uc?export=download&id=RESUME_FILE_ID" target="_blank">
+        Download My Resume
+      </a>
+    </div>
+    <div>
+      <h2>Certificates</h2>
+      <div class="certificates">
+        <!-- Duplicate this block for each certificate, updating the Drive ID and title/alt text -->
+        <div class="certificate-card animate__animated animate__fadeInUp">
+          <a href="https://drive.google.com/uc?export=view&id=CERT1_FILE_ID" target="_blank">
+            <img class="certificate-img" src="https://drive.google.com/uc?export=view&id=CERT1_FILE_ID" alt="Certificate 1">
+            <div>Python Programming Certificate</div>
+          </a>
+        </div>
+        <div class="certificate-card animate__animated animate__fadeInUp">
+          <a href="https://drive.google.com/uc?export=view&id=CERT2_FILE_ID" target="_blank">
+            <img class="certificate-img" src="https://drive.google.com/uc?export=view&id=CERT2_FILE_ID" alt="Certificate 2">
+            <div>Data Science Workshop</div>
+          </a>
+        </div>
+        <div class="certificate-card animate__animated animate__fadeInUp">
+          <a href="https://drive.google.com/uc?export=view&id=CERT3_FILE_ID" target="_blank">
+            <img class="certificate-img" src="https://drive.google.com/uc?export=view&id=CERT3_FILE_ID" alt="Certificate 3">
+            <div>Web Development Bootcamp</div>
+          </a>
+        </div>
+        <!-- Add more certificate cards as needed -->
       </div>
-      <!-- Add more project cards here -->
     </div>
   </section>
+  <script>
+    // Animate certificates with staggered delays for a lively effect
+    document.querySelectorAll('.certificate-card').forEach((el, i) => {
+      el.style.animationDelay = (i * 0.18 + 0.2) + 's';
+    });
+  </script>
 </body>
 </html>
