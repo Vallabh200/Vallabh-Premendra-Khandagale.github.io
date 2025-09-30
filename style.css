@@ -1,122 +1,18 @@
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(135deg, #f9fafc 0%, #e3e9f7 100%);
-  color: #222;
-}
-
-.header-bg {
-  position: absolute;
-  top: 0; left: 0; right: 0; height: 180px;
-  background: linear-gradient(90deg, #24292e 60%, #3b82f6 100%);
-  z-index: 0;
-}
-
-header {
-  position: relative;
-  background: transparent;
-  color: #fff;
-  padding: 40px 0 20px 0;
-  text-align: center;
-  z-index: 1;
-}
-
-.profile-img {
-  width: 120px; height: 120px;
-  border-radius: 50%;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-  border: 4px solid #fff;
-  margin-bottom: 16px;
-}
-
-header a {
-  color: #58a6ff;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.icon-linkedin {
-  vertical-align: middle;
-  fill: #0077b5;
-  margin-right: 4px;
-}
-
-section {
-  padding: 24px;
-  max-width: 900px;
-  margin: 24px auto;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 2px 24px rgba(60,120,220,0.08);
-}
-
-h2 {
-  color: #3b82f6;
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  margin-bottom: 16px;
-}
-
-.icon-about, .icon-experience, .icon-education, .icon-cert, .icon-project {
-  display: inline-block;
-  width: 28px; height: 28px;
-  background-size: contain;
-  margin-right: 10px;
-}
-.icon-about { background-image: url('icons/about.svg'); }
-.icon-experience { background-image: url('icons/experience.svg'); }
-.icon-education { background-image: url('icons/education.svg'); }
-.icon-cert { background-image: url('icons/cert.svg'); }
-.icon-project { background-image: url('icons/project.svg'); }
-
-ul { padding-left: 24px; }
-
-.card-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 12px;
-}
-
-.card {
-  background: linear-gradient(90deg, #e3e9f7 60%, #f9fafc 100%);
-  border-radius: 10px;
-  padding: 16px;
-  box-shadow: 0 2px 8px rgba(60,120,220,0.04);
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.project-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 18px;
-}
-.project-card {
-  background: #f4f7fb;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(60,120,220,0.05);
-  padding: 18px;
-  transition: transform 0.2s;
-}
-.project-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 6px 24px rgba(60,120,220,0.08);
-}
-.project-img {
-  width: 100%;
-  max-width: 260px;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  display: block;
-}
-
-@media (max-width: 700px) {
-  section { padding: 14px; }
-  h2 { font-size: 1.3rem; }
-  .profile-img { width: 80px; height: 80px; }
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f4f4f4; }
+header { background: #232f3e; color: #fff; text-align: center; padding: 2.5rem 1rem 2rem 1rem; position: relative;}
+.profile-img { border-radius: 50%; width: 155px; height: 155px; border: 5px solid #fff; margin-top: -80px; background: #fff; object-fit: cover;}
+.main-section { max-width: 850px; margin: 2rem auto; background: #fff; border-radius: 14px; box-shadow: 0 2px 18px #0002; padding: 2.1rem; }
+.featured { margin: 2.2rem 0 1.2rem 0; }
+.contacts a { margin: 0 1.2rem; color: #232f3e; text-decoration: none; font-weight: bold;}
+.contacts a:hover { text-decoration: underline; }
+.certificates { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+.certificate-card { background: #f8f9fa; border-radius: 8px; box-shadow: 0 1px 8px #0002; width: 220px; text-align: center; padding: 1rem; transition: transform 0.3s; }
+.certificate-card:hover { transform: scale(1.05);}
+.certificate-img { width: 100%; border-radius: 6px; min-height: 120px; max-height: 120px; object-fit: cover;}
+.resume-btn { background: #ff9900; color: #fff; border: none; border-radius: 24px; padding: 0.8rem 2.2rem; font-size: 1.1rem; cursor: pointer; transition: background 0.2s;}
+.resume-btn:hover { background: #cc7a00;}
+@media (max-width: 600px) {
+  .main-section { padding: 1rem; }
+  .certificates { flex-direction: column; align-items: center; }
+  .certificate-card { width: 90%; }
 }
