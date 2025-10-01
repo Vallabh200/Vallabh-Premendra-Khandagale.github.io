@@ -7,72 +7,83 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="header-bg"></div>
   <header>
-    <div class="header-bg"></div>
-    <img src="profile.jpg" alt="Profile Image" class="profile-img" />
+    <!-- Google Drive profile photo -->
+    <img src="https://drive.google.com/uc?export=view&id=13G8Ur11z1iezedspZqZf8AanN0AMUcNk" alt="Profile Image" class="profile-img" />
     <h1>Vallabh Khandagale</h1>
-    <p>3D Printing & CAD Designer | BE Mechanical 2027</p>
+    <p class="subtitle">3D Printing & CAD Designer | BE Mechanical 2027</p>
     <p>Pimpri Chinchwad College of Engineering and Research</p>
-    <a href="https://www.linkedin.com/in/vallabh-khandagale-154023208" target="_blank">
-      <svg height="24" width="24" viewBox="0 0 24 24" class="icon-linkedin"><path d="M19 0h-14c-2.76 0-5 2.24-5 ..."/></svg>
-      LinkedIn
-    </a>
+    <div class="header-links">
+      <a href="https://www.linkedin.com/in/vallabh-khandagale-154023208" target="_blank" class="social-link linkedin">
+        <svg width="22" height="22" fill="#0A66C2" viewBox="0 0 24 24"><path d="M19 0h-14c-2.76..."/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/Vallabh200" target="_blank" class="social-link github">
+        <svg width="22" height="22" fill="#181717" viewBox="0 0 24 24"><path d="M12 .5C5.648..."/></svg>
+        GitHub
+      </a>
+      <a class="resume-btn" href="https://drive.google.com/uc?export=download&id=18caRvmbuj_oDsrAIi9Yze-1qe6cROMAw" target="_blank">Download Resume</a>
+    </div>
   </header>
 
-  <section id="about">
-    <h2><span class="icon-about"></span> About Me</h2>
-    <p>
-      As a Mechanical Engineer at Team Sonic Diggers, I am part of the Marketing team and the Conveyor department.
-      I am currently pursuing my Bachelor of Engineering in Mechanical Engineering from Pimpri Chinchwad College Of Engineering and Research, expected to graduate in October 2027.
-      I have also completed an International Level Student Workshop and an Introduction to Programming Using Python certification.
-      My skills include 3D Printing, Microsoft Copilot, and Artificial Intelligence (AI).
-      I am passionate about applying my knowledge and skills to innovative solutions in the field of mechanical engineering.
-    </p>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Mechanical Engineer (B.E., 2027) passionate about 3D Printing, CAD Design, and innovation. <br>
+        Member of Team Sonic Diggers, involved in the Marketing team and Conveyor department for TIFAN Project.<br>
+        Actively learning AI and programming, with hands-on experience in simulation, Python, and project management.<br>
+        Dedicated to applying engineering knowledge to real-world challenges and emerging technologies.
+      </p>
+    </section>
 
-  <section id="experience">
-    <h2><span class="icon-experience"></span> Experience</h2>
-    <ul>
-      <li><strong>Team Sonic Diggers</strong> – Marketing team & Conveyor department (TIFAN Project)</li>
-      <li><strong>Altair, Pune</strong> – Conceptual CAE Design & Simulation Virtual Internship (Outstanding Grade)</li>
-    </ul>
-  </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Team Sonic Diggers</strong> – Marketing team & Conveyor department (TIFAN Project)</li>
+        <li><strong>Altair, Pune</strong> – Conceptual CAE Design & Simulation Virtual Internship (Outstanding Grade)</li>
+      </ul>
+    </section>
 
-  <section id="education">
-    <h2><span class="icon-education"></span> Education</h2>
-    <ul>
-      <li><strong>BE Mechanical Engineering</strong> – PCCOER, CGPA: 8.91</li>
-      <li><strong>HSC Science</strong> – Haribhai Devkaran High School</li>
-      <li><strong>SSC</strong> – Haribhai Devkaran High School, Grade: 92.65%</li>
-    </ul>
-  </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.E. Mechanical Engineering</strong> – PCCOER, CGPA: 8.91</li>
+        <li><strong>HSC Science</strong> – Haribhai Devkaran High School</li>
+        <li><strong>SSC</strong> – Haribhai Devkaran High School, Grade: 92.65%</li>
+      </ul>
+    </section>
 
-  <section id="certifications">
-    <h2><span class="icon-cert"></span> Certifications</h2>
-    <div class="card-list">
-      <div class="card">AI Dashboards using Microsoft Power BI – Skill Nation</div>
-      <div class="card">Application Development with AI & Essential Skills – Brainovision</div>
-      <div class="card">GenAI Powered Data Analytics Job Simulation – Tata Group</div>
-      <div class="card">Altair Simulation Challenge: Innovate with Inspire!</div>
-      <div class="card">Python Programming Bootcamp – Udemy</div>
-      <div class="card">Inspire Structures Professional Certification – Altair</div>
-      <div class="card">Fundamental AI Concepts – Microsoft AI</div>
-      <div class="card">Introduction to Programming Using Python – NIELIT</div>
-      <div class="card">International Level Student Workshop – Brainovision</div>
-      <div class="card">ANSYS Workbench Hands-on Workshop</div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <h2><span class="icon-project"></span> Projects</h2>
-    <div class="project-list">
-      <div class="project-card">
-        <h3>Differential Spur Gear Model (3D Printing)</h3>
-        <img src="spur-gear.png" alt="Spur Gear Model" class="project-img" />
-        <p>Designed and printed a differential spur gear system for efficient torque distribution in vehicles.</p>
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="card-list">
+        <!-- If you have certificate images, use the same Google Drive method as the profile image -->
+        <div class="card">AI Dashboards using Microsoft Power BI – Skill Nation</div>
+        <div class="card">Application Development with AI & Essential Skills – Brainovision</div>
+        <div class="card">GenAI Powered Data Analytics Job Simulation – Tata Group</div>
+        <div class="card">Altair Simulation Challenge: Innovate with Inspire!</div>
+        <div class="card">Python Programming Bootcamp – Udemy</div>
+        <div class="card">Inspire Structures Professional Certification – Altair</div>
+        <div class="card">Fundamental AI Concepts – Microsoft AI</div>
+        <div class="card">Introduction to Programming Using Python – NIELIT</div>
+        <div class="card">International Level Student Workshop – Brainovision</div>
+        <div class="card">ANSYS Workbench Hands-on Workshop</div>
       </div>
-      <!-- Add more project cards here -->
-    </div>
-  </section>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Differential Spur Gear Model (3D Printing)</h3>
+          <!-- If you wish to use a Google Drive or local image for your project, use the same method as above -->
+          <img src="spur-gear.png" alt="Spur Gear Model" class="project-img" />
+          <p>Designed and printed a differential spur gear system for efficient torque distribution in vehicles.</p>
+        </div>
+        <!-- Add more project cards here -->
+      </div>
+    </section>
+  </main>
 </body>
 </html>
