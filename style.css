@@ -200,7 +200,12 @@ h1, h2, h3 { font-family: var(--font-display); color: var(--ink); }
   margin: 0;
 }
 
-.lede { max-width: 68ch; font-size: 1.05rem; }
+.lede{
+    max-width: 68ch;
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
 
 /* ---------------- Experience ---------------- */
 .job { padding: 22px 0; border-top: 1px dashed var(--line); }
